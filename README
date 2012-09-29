@@ -1,0 +1,21 @@
+File Sharing System over TCP
+
+What is it?
+-------------
+
+This project contains a Server and a Client program.
+The server creates a file sharing network in which
+clients can share their files between each others.
+I just wanted to emulate a peer to peer protocol,
+don't expect anything too fancy anyway.
+
+You'll find the source code and a compiled version
+of both server and client programs. Compiled on
+Linux CentOS 64-bit.
+
+KNOWN ISSUES
+-------------
+
+The client sometimes can't make a successful
+handshake with the server at the time of
+establing a connection.
